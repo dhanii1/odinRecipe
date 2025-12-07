@@ -1,0 +1,133 @@
+body {
+   background-color: #ebe6e7;
+}
+h1 {
+   text-align: center;
+   margin: 50px 0;
+}
+
+/* Home Page */
+.menu-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.menu-container .card {
+   background-color: #ffff;
+   border: #d4d3d3 0.5px solid;
+   padding: 8px;
+   border-radius: 15px;
+   transition: ease 0.3s;
+   text-decoration: none;
+   /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   */-webkit-border-radius: 10px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   -webkit-transition: ease 0.3s;
+   -moz-transition: ease 0.3s;
+   -ms-transition: ease 0.3s;
+   -o-transition: ease 0.3s;
+   -webkit-border-radius: 15px;
+}
+.card:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   transform: translateY(-5px);
+   -webkit-transform: translateY(-5px);
+   -moz-transform: translateY(-5px);
+   -ms-transform: translateY(-5px);
+   -o-transform: translateY(-5px);
+}
+.card .card-img {
+   width: 250px;
+   height: 250px;
+   overflow: hidden;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+.card img {
+   /*width: 100%;
+   */object-fit: cover;
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+.card-body {
+   padding-top: 10px;
+   text-align: center;
+   color: #2c2c2c;
+   font-weight: 600;
+}
+
+/* ===== Recipe Page ===== */
+.baner-container {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+.card-baner {
+   width: 400px;
+   height: 250px;
+   overflow: hidden;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+.card-baner img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+   display: block;
+}
+
+/* Recipe */
+.recipe {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   gap: 40px;
+}
+
+.card-recipe {
+   background-color: #ffff;
+   border: #d4d3d3 0.5px solid;
+   padding: 20px;
+   border-radius: 15px;
+}
+h2 {
+   text-align: center;
+}
+.card-recipe ul {
+   padding: 0 40px;
+   line-height: 1.7;
+}
+
+/* Make */
+.make-container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 40px 20% 20%;
+}
+.card-make {
+   background-color: #ffff;
+   border: #d4d3d3 0.5px solid;
+   padding: 20px;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+
+.card-make ol {
+   padding: 0 40px;
+   line-height: 1.7;
+}
